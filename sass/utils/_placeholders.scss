@@ -23,3 +23,22 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+  %button {
+    font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--tertiary-text-color);
+  background-color: var(--accent-color);
+
+  border-color: transparent;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background-color $transform-duration $time-function,
+    box-shadow $transform-duration $time-function;
+    &:hover,
+    &:focus {
+        background-color: var(--secondary-accent-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+}
