@@ -1,0 +1,16 @@
+.header-logo {
+    font-family: $logo-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  &-color-1 {
+    color: $accent-color;
+  }
+  &-color-2 {
+    color: $black-text-color;
+  }
+  &-color-3 {
+    color: $tertiary-text-color;
+  }
+}
