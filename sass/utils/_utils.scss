@@ -1,0 +1,72 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    background-color: var(--main-bg-color);
+}
+
+button {
+    cursor: pointer;
+    line-height: 1.62;
+}
+ul,
+li,
+h1,
+h2,
+h3,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------------------Template to delete markers in lists ------------------------*/
+.list {
+    list-style: none;
+}
+/* -------------------------Link template ------------------------*/
+.link {
+    text-decoration: none;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    /* outline: 2px solid #188ce8; */
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: $secondary-text-color;
+
+    margin-bottom: 50px;
+}
+.thumb {
+    max-width: 270px;
+    height: 120px;
+    background: $secondary-bg-color;
+    border-radius: 4px;
+    @extend %flex;
+    margin-bottom: 30px;
+}
+
+.vis-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
