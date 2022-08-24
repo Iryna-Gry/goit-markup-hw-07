@@ -2,15 +2,9 @@
 .team.section {
     background-color: $secondary-bg-color;
 }
-
 .team.list {
     display: flex;
 }
-
-.team-card img {
-    display: block;
-}
-
 .team-card {
     width: calc((1170px - 90px) / 4);
     background-color: $main-bg-color;
@@ -18,15 +12,12 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
-
 .team-card:not(:last-child) {
     margin-right: 30px;
 }
-
 .team-member {
     padding: 30px 32px;
 }
-
 .team .title {
     font-weight: 500;
     font-size: 16px;
@@ -36,20 +27,16 @@
 
     margin-bottom: 10px;
 }
-
 .team .position {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
     margin-bottom: 16px;
 }
-
 .member-soc {
-    display: flex;
-    justify-content: center;
+    @extend %flex;
     gap: 10px;
 }
-
 .member-soc-link {
     width: 44px;
     height: 44px;
@@ -59,10 +46,9 @@
     fill: currentColor;
     transition: color $transform-duration $time-function,
         background-color $transform-duration $time-function;
-}
-
-.member-soc-link:hover,
-.member-soc-link:focus {
-    background-color: $accent-color;
-    color: $tertiary-text-color;
+    &:hover,
+    :focus {
+            background-color: $accent-color;
+            color: $tertiary-text-color;
+        }
 }

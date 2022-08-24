@@ -2,16 +2,13 @@
 .section.ocupation {
     padding-top: 0;
 }
-
 .ocupation.list {
     display: flex;
 }
-
 .ocupation-item {
     width: calc((100% - 60px) / 3);
     position: relative;
 }
-
 .ocupation-name {
     position: absolute;
     bottom: 0;
@@ -19,7 +16,6 @@
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
 }
-
 .ocupation-text {
     display: block;
     margin: 27px auto;
@@ -29,12 +25,6 @@
     text-transform: uppercase;
     color: $tertiary-text-color;
 }
-
-/* ---------To remove gap from img inline property -----------*/
-.ocupation img {
-    display: block;
-}
-
 .ocupation li:not(:last-child) {
     margin-right: 30px;
 }
