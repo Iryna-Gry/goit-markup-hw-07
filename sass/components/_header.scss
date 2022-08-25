@@ -23,9 +23,7 @@
         }
 }
 .site-nav .link {
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include font-box(500, null, 1.14, 0.02);
     color: $secondary-text-color;
 
     display: block;
@@ -62,9 +60,7 @@
         }
 }
 .contacts .contact-link {
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+    @include font-box(500, null, 1.14, 0.02em);
     color: $primary-text-color;
     fill: currentColor;
 

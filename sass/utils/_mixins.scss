@@ -1,5 +1,6 @@
-@mixin flex($jcc, $al-it) {
-    display: flex;
-    align-items: $al-it;
-    justify-content: $jcc;
+@mixin font-box($fw, $fs, $lh, $ls:0.03em) {
+    font-weight: $fw;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls;
 }

@@ -19,17 +19,14 @@
     padding: 30px 32px;
 }
 .team .title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    @include font-box(500, 16px, 1.19);
     text-align: center;
     color: $secondary-text-color;
 
     margin-bottom: 10px;
 }
 .team .position {
-    font-size: 16px;
-    line-height: 1.19;
+    @include font-box(null, 16px, 1.19);
     text-align: center;
     margin-bottom: 16px;
 }

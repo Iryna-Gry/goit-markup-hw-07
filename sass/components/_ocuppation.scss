@@ -19,8 +19,7 @@
 .ocupation-text {
     display: block;
     margin: 27px auto;
-    font-weight: 700;
-    line-height: 1.14;
+    @include font-box(700, null, 1.14);
     text-align: center;
     text-transform: uppercase;
     color: $tertiary-text-color;

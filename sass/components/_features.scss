@@ -9,8 +9,7 @@
         margin-right: 30px;
     }
     & .title {
-         font-weight: 700;
-         line-height: 1.14;
+        @include font-box(700, null, 1.14, null);
          text-transform: uppercase;
          color: $secondary-text-color;
     
