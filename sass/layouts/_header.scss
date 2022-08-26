@@ -22,7 +22,7 @@
         }
 }
 .site-nav__link {
-    @include font-box(500, null, 1.14, 0.02);
+    @include font-box(500, null, 1.14, 0.02em);
     color: $secondary-text-color;
 
     display: block;
