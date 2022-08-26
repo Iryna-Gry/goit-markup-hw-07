@@ -554,23 +554,23 @@ img {
   line-height: 1.71;
 }
 
-/* --------------------- Ocupation----------------*/
-.section.ocupation {
+/* --------------------- Occupation----------------*/
+.section.occupation {
   padding-top: 0;
 }
 
-.ocupation__list {
+.occupation__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.ocupation__item {
+.occupation__item {
   width: calc((100% - 60px) / 3);
   position: relative;
 }
 
-.ocupation__name {
+.occupation__name {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -578,7 +578,7 @@ img {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.ocupation__text {
+.occupation__text {
   display: block;
   margin: 27px auto;
   font-weight: 700;
@@ -589,7 +589,7 @@ img {
   color: #ffffff;
 }
 
-.ocupation__item:not(:last-child) {
+.occupation__item:not(:last-child) {
   margin-right: 30px;
 }
 
