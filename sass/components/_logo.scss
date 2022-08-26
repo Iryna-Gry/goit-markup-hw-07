@@ -2,13 +2,16 @@
     font-family: $logo-font;
     @include font-box(700, 26px, 1.19);
   text-decoration: none;
-  &-color-1 {
+  &--color-main {
     color: $accent-color;
   }
-  &-color-2 {
+  &--color-dark {
     color: $black-text-color;
   }
-  &-color-3 {
+  &--color-light {
     color: $tertiary-text-color;
   }
+}
+.header__logo {
+  margin-right: 93px;
 }

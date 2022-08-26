@@ -13,7 +13,7 @@
     margin-right: 8px;
 }
 .portfolio-button {
-    @include font-box(500, 16px, null);
+    @include font-box(500, 16px, 1.62);
     text-align: center;
     color: $secondary-text-color;
     background-color: $secondary-bg-color;
@@ -21,6 +21,7 @@
     border-radius: 4px;
     border: transparent;
     padding: 6px 22px;
+    display: inline-block;
     transition: color $transform-duration $time-function,
         background-color $transform-duration $time-function,
         box-shadow $transform-duration $time-function;

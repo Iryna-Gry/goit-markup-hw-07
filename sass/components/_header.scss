@@ -17,12 +17,11 @@
 /* -------------------------Site-nav ------------------------*/
 .site-nav {
     display: flex;
-    margin-left: 93px;
-    & .item:not(:last-child) {
+    &__item:not(:last-child) {
             margin-right: 50px;
         }
 }
-.site-nav .link {
+.site-nav__link {
     @include font-box(500, null, 1.14, 0.02);
     color: $secondary-text-color;
 
@@ -52,14 +51,14 @@
         }
 }
 /* -------------------------Contacts------------------------*/
-.contacts {
+.contact {
     display: flex;
     margin-left: auto;
-    &>.contact-item+.contact-item {
+    &>.contact__item+.contact__item {
             margin-left: 50px;
         }
 }
-.contacts .contact-link {
+.contact .contact__link {
     @include font-box(500, null, 1.14, 0.02em);
     color: $primary-text-color;
     fill: currentColor;
@@ -73,6 +72,6 @@
             color: $accent-color;
         }
 }
-.contact-icon {
+.contact__icon {
     margin-right: 10px;
 }
